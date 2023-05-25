@@ -1,6 +1,10 @@
+const { users } = require('./users.js');
+
 const resolvers = {
   Query: {
-    hello: () => 'Hello, World!',
+    getAllUsers() {
+      return users;
+    },
   },
 };
 
