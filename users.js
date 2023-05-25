@@ -20,3 +20,5 @@ let users = [
   { name: 'Almeria Gillies', company: 'Meetz', married: false },
   { name: 'Hulda Pender', company: 'Aibox', married: false },
 ];
+
+module.exports = { users };

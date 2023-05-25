@@ -7,7 +7,6 @@ const typeDefs = gql`
     married: Boolean!
   }
 
-  # Queries
   type Query {
     getAllUsers: [User!]!
   }

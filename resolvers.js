@@ -1,4 +1,4 @@
-const { users } = require('./users.js');
+const { users } = require('./users');
 
 const resolvers = {
   Query: {
